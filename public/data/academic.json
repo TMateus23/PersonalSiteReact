@@ -1,0 +1,51 @@
+{
+    "academic_journey": [
+        {
+            "title": "Secondary",
+            "subtitle": "2019-2022",
+            "lead": "Completed the 12th year of schooling in the Scientific-Humanistic Science and Technology Course at Artur Gonçalves School Group in Torres Novas, Portugal. \n Graduated with a final average of 16.2 (out of 20), reflecting my dedication, strong academic performance, and passion for science and technology.",
+            "img": "images/artur-gonecalves.jpg",
+            "alt": "Escola Artur Gonçalves, Torres Novas"
+        },
+        {
+            "title": "Degree",
+            "subtitle": "2022-2025",
+            "lead": "I have completed my Bachelor's Degree in Computer Science Engineering at the University of Évora, at the Verney campus. \n I started the course in 2022 and graduated in 2025. \n Grade average value of 15.15 out of 20. \n During my time at university, I developed solid knowledge in areas like programming, computer systems, and software development. \n Studying in Évora helped me grow both technically and academically through hands-on work and team projects.", 
+            "img": "images/verney.jpg",
+            "alt": "Universidade Évora, polo 'Verney'"
+        },
+        {
+            "title": "Master's degree",
+            "subtitle": "2025-2027",
+            "lead": "I am currently pursuing a Master's degree in Informatics and Management at ISCTE - University Institute of Lisbon. \n The program is part-time and designed for working professionals, allowing me to deepen my knowledge and skills while balancing other commitments.",
+            "img": "images/iscte.jpg",
+            "alt": "Universidade de Lisboa - ISCTE"
+        }
+    ], 
+    "internship": [
+        {
+            "title": "Digital Works",
+            "subtitle": "2025",
+            "lead": "I completed a 4-month internship at Digital Works, where I worked with PHP, CSS, HTML, WordPress (including the Divi theme), and JavaScript (jQuery). \nDuring this time, I gained valuable hands-on experience in full-stack development and improved my skills through internal tasks and training exercises within a professional environment.",
+            "img": "images/DigitalWorks.jpeg",
+            "alt": "Empresa - 'Digital Works', Évora"
+        }
+    ], 
+    "home_journey": [
+        {
+            "title": "Academic",
+            "icon": "icons/academic.svg",
+            "link": ""
+        },
+        {
+            "title": "Work experience",
+            "icon": "icons/work_experience.svg",
+            "link": ""
+        },
+        {
+            "title": "Skills",
+            "icon": "icons/skills.svg",
+            "link": ""
+        }
+    ]
+}
