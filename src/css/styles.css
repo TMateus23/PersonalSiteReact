@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap'); 
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none !important;
+    outline: none !important;
+}
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,
+address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,
+tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,
+tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,
+header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,
+
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+html,
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*---------*/
+/*---ALL---*/
+/*---------*/
+
+.limit-wrapper {
+    width: 100%;
+    max-width: 1210px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#content {
+    margin-top: 143px;
+}
+
+.block-btn a {
+    text-decoration: none;
+}
+
+.block-btn .block-button {
+    display: flex;
+    max-width: 250px;
+    width: 100%;
+}
+
+.block-btn .block-button .block-btn-arrow {
+    padding: 20px 20px;
+    border-right: 1px solid #4D7493;
+    margin-right: 30px;
+    background: linear-gradient(to right, #4D7493 50%, transparent 50%);
+    background-size: 300% 300%;
+    background-position: right;
+    transition: 0.3s ease-in-out;
+    background-color: transparent;
+}
+
+.block-btn .block-button:hover .block-btn-arrow {
+    background-position: left;
+}
+
+.block-btn .block-button .block-btn-arrow svg polygon {
+    transition: 0.3s ease-in-out;
+}
+
+.block-btn .block-button:hover .block-btn-arrow svg polygon {
+    fill: #ffffff;
+    transition: 0.3s ease-in-out;
+}
+
+.block-btn .block-button .block-btn-lead {
+    align-items: center;
+    display: flex;
+}
+
+.block-btn .block-button .block-btn-lead span {
+    color: #4D7493;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}

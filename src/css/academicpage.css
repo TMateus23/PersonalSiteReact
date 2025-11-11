@@ -1,0 +1,158 @@
+#block-academic .limit-wrapper {
+    padding: 70px 0 80px 0;
+}
+
+#block-academic .block-academic-top .block-top-lead {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+#block-academic .block-academic-top .block-top-lead h1 {
+    font-size: 46px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700px;
+    color: #4D7493;
+}
+
+#block-academic .block-academic-lead {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+#block-academic .block-academic-lead .block-header {
+    margin-right: 40px;
+    align-content: center;
+    width: 100%;
+    max-width: 150px;
+}
+
+#block-academic .block-academic-lead {
+    margin: 0 20px;
+}
+
+#block-academic .block-academic-lead .block-header .block-header-title h2 {
+    font-size: 36px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700px;
+    line-height: 60px;
+    text-align: center;
+}
+
+#block-academic .block-academic-lead .block-header .block-header-subtitle {
+    text-align: center;
+}
+
+#block-academic .block-academic-lead .block-header .block-header-subtitle span {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700px;
+    text-align: center;
+}
+
+#block-academic .block-academic-lead .block-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#block-academic .block-academic-lead .block-body .block-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+#block-academic .block-academic-lead .block-body .block-left .block-left-lead span {
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}
+
+#block-academic .block-academic-lead .block-body .block-right .block-right-img img {
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+#block-stage {
+    padding: 100px 0 80px 0;
+}
+
+#block-stage .block-stage-header .block-header-title {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+#block-stage .block-stage-header .block-header-title h1 {
+    font-size: 46px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700px;
+    line-height: 60px;
+    color: #4D7493;
+    text-align: center;
+}
+
+#block-stage .block-stage-lead {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+#block-stage .block-stage-lead .block-header {
+    margin-right: 40px;
+    align-content: center;
+    width: 100%;
+    max-width: 150px;
+}
+
+#block-stage .block-stage-lead .block-header .block-header-title h2 {
+    font-size: 36px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700px;
+    line-height: 60px;
+    text-align: center;
+}
+
+#block-stage .block-stage-lead .block-header .block-header-subtitle {
+    text-align: center;
+}
+
+#block-stage .block-stage-lead .block-header .block-header-subtitle span {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700px;
+    text-align: center;
+}
+
+#block-stage .block-stage-lead .block-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+#block-stage .block-stage-lead .block-body .block-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+#block-stage .block-stage-lead .block-body .block-left .block-left-lead span {
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}
+
+#block-stage .block-stage-lead .block-body .block-left .block-left-subtitle {
+    text-align: center;
+}
+
+#block-stage .block-stage-lead .block-left .block-left-subtitle span {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700px;
+    text-align: center;
+}
+
+#block-stage .block-stage-lead .block-body .block-right .block-right-img img {
+    height: 250px;
+    border-radius: 10px;
+}

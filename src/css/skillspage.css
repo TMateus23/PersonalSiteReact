@@ -1,0 +1,49 @@
+/*************/
+/*PAGE SKILLS*/
+/*************/
+#block-skills .limit-wrapper {
+    padding: 70px 0 80px 0;
+}
+
+#block-skills .block-header .block-header-title {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+#block-skills .block-header .block-header-title h1 {
+    font-size: 46px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700px;
+    color: #4D7493;
+}
+
+#block-skills .block-body {
+    border: 1px solid #4D7493;
+    padding: 20px 20px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#block-skills .block-body .block-body-title {
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#block-skills .block-body .block-body-title h2 {
+    font-size: 36px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700px;
+    line-height: 60px;
+    color: #4D7493;
+}
+
+#block-skills .block-body .block-body-imgs {
+    padding-bottom: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#block-skills .block-body .block-body-imgs svg {
+    margin-right: 20px;
+}

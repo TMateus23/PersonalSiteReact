@@ -1,20 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/shared/Header';
 import Footer from './components/shared/Footer';
-import Slider from './components/frontpage/Slider';
-import Academic from './components/Academic';
-import AboutMe from './components/frontpage/AboutMe';
-import JourneyHome from './components/frontpage/JourneyHome';
+import Academic from './components/academicpage/Academic'
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import FrontPage from './components/frontpage/FrontPage';
 
 function App() {
   return (
     <div className="App">
       <div className="container">
-        <Header></Header>
-        <Slider></Slider>
-        <AboutMe></AboutMe>
-        <JourneyHome></JourneyHome>
+        <Header />
+
+        <Router>
+            <Routes>
+                <Route path="/" element={<FrontPage />}></Route>
+                <Route path="/academic" element={<Academic /> }></Route>
+            </Routes>
+        </Router>
+
+
+
+      <FrontPage />
       </div>
 
       <Footer></Footer>

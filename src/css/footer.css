@@ -1,0 +1,56 @@
+/********/
+/*FOOTER*/
+/********/
+#block-footer .block-top {
+    background-color: #2E3E58;
+    padding: 40px 40px;
+    display: grid;
+    justify-content: center;
+}
+
+#block-footer .block-top .block-top-header .block-top-title {
+    color: #ffffff;
+}
+
+#block-footer .block-top .block-top-header .block-top-title h1 {
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700px;
+    line-height: 60px;
+}
+
+#block-footer .block-top .block-top-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#block-footer .block-top .block-top-body .block-icons {
+    padding-top: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+#block-footer .block-bottom {
+    background-color: #4D7493;
+    padding: 40px 40px;
+}
+
+#block-footer .block-bottom .limit-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#block-footer .block-bottom .block-bottom-left span a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#block-footer .block-bottom .block-bottom-left span a:hover {
+    text-decoration: underline;
+}
+
+#block-footer .block-bottom .block-bottom-right span {
+    color: #ffffff;
+}

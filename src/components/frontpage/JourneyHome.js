@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import '../../styles.css';
+import JourneyHomeItems from './JourneyHomeItems';
+import '../../css/styles.css';
+import '../../css/frontpage.css';
 
 export default function JourneyHome() {
 
     const [journey, setJourney] = useState([]);
-
 
     useEffect(() => {
         fetch('data/academic.json')
@@ -22,17 +23,7 @@ export default function JourneyHome() {
                 </div>
                 <div className="block-body">
                     {journey.map((item, index) => (
-                        <div className="block-timeline" key={index}>
-                            <div className="block-timeline-title">
-                                <h3>{item.title}</h3>
-                            </div>
-                            <div className="block-timeline-icon">
-                                {item.icon}
-                            </div>
-                            <div className="block-timeline-btn">
-                                <a href={item.xlink}>Find out more</a>
-                            </div>
-                        </div>
+                        <JourneyHomeItems key={index} title={item.title} icon={item.icon} xlink={item.xlink} />
                     ))}
                 </div>
             </div>

@@ -1,0 +1,16 @@
+{
+  "work_experience": [
+    {
+      "title": "Aquatic Complex",
+      "subtitle": "July-September 2022 \n & May-September 2024",
+      "lead": "I worked in surveillance and customer service at the Santarém Aquatic Complex, managed by the municipal company Viver Santarém SA. \n I was responsible for ensuring the safety and well-being of visitors through continuous monitoring of the facilities and by enforcing safety rules and procedures. \n I provided assistance and support to guests, handled inquiries, and delivered friendly and professional customer service. \n I actively contributed to maintaining a welcoming, organized, and safe environment for all users of the complex. ",
+      "img": "images/vs.jpeg"
+    },
+    {
+      "title": "Logistics Base",
+      "subtitle": "July-August 2021 \n & July-September 2022",
+      "lead": "I worked as a logistics operator at the Intermarché logistics base in Bugalhos, Alcanena. \n My responsibilities included organizing the warehouse and handling the flow of containers used for transporting meat, fish, and fruit products. \n I was involved in the process of label removal, preparing the crates for washing using an industrial cleaning machine, and ensuring that the cleaned crates were properly sorted and stored for future use. \n Additionally, I assisted in the labeling of goods, contributing to the correct identification and traceability of products.",
+      "img": "images/base-intermarche.jpg"
+    }
+  ]
+}

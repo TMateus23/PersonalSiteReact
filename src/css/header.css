@@ -1,0 +1,119 @@
+/********/
+/*HEADER*/
+/********/
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background-color: transparent;
+}
+
+header:hover {
+    background-color: #ffffff;
+    transition: 0.3s ease-in-out;
+}
+
+header.fixed {
+    background-color: white;
+    transition: 0.3s ease-in-out;
+}
+
+#block-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px 0 40px;
+    transition: padding .3s ease-in-out;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#block-header .block-header-left {
+    width: 100%;
+    max-width: 145px;
+}
+
+#block-header .block-header-left .block-header-left-text {
+    text-align: center;
+    font-size: 36px;
+}
+
+#block-header .block-header-left .block-header-left-text a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header.fixed #block-header .block-header-left .block-header-left-text a {
+    color: #000000;
+}
+
+header:hover #block-header .block-header-left .block-header-left-text a {
+    color: #000000;
+}
+
+#block-header .block-header-middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% - 145px);
+    padding: 0px 20px;
+}
+
+#block-header .block-header-middle .main-menu {
+width: 100%;
+max-width: 700px;
+margin: 0 auto;
+}
+
+#block-header .block-header-middle .main-menu .button-close-menu {
+    display: none;
+}
+
+#block-header .block-header-middle ul {
+list-style: none;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+#block-header .block-header-middle ul li {
+    padding: 70px 20px 50px 20px;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+header.fixed #block-header .block-header-middle ul li {
+    padding: 35px 20px 25px 20px;
+}
+
+#block-header .block-header-middle ul li:hover {
+    border-bottom: 2px solid #4D7493;
+}
+
+#block-header .block-header-middle ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+header.fixed #block-header .block-header-middle ul li a {
+    color: #000000;
+}
+
+header:hover #block-header .block-header-middle ul li a {
+    color: #000000;
+    transition: 0.3s ease-in-out;
+}
+
+#block-header .block-header-middle ul li:hover a {
+    color: #4D7493 !important;
+}
+
+#block-header .block-header-right .block-burguer-menu {
+    display: none;
+}

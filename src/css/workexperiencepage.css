@@ -1,0 +1,71 @@
+#block-works .limit-wrapper {
+    padding: 70px 0 80px 0;
+}
+
+#block-works .block-header .block-header-title {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+#block-works .block-header .block-header-title h1 {
+    font-size: 46px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700px;
+    color: #4D7493;
+}
+
+#block-works .block-body {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+#block-works .block-body .block-left {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    width: 100%;
+}
+
+#block-works .block-body .block-left .block-left-title h2 {
+    font-size: 36px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700px;
+    line-height: 60px;
+    text-align: center;
+}
+
+#block-works .block-body .block-left .block-left-subtitle {
+    text-align: center;
+}
+
+#block-works .block-body .block-left .block-left-subtitle span {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700px;
+    text-align: center;
+}
+
+#block-works .block-body .block-left .block-left-img {
+    text-align: center;
+    padding-top: 30px;
+}
+
+#block-works .block-body .block-left .block-left-img img {
+    height: 250px;
+    border-radius: 10px;
+}
+
+#block-works .block-body .block-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#block-works .block-body .block-right .block-right-lead span {
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}

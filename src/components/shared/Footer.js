@@ -1,5 +1,6 @@
-import React, {useEffect, useState} from 'react';
-import '../../styles.css';
+import React, { useEffect, useState } from 'react';
+import '../../css/styles.css';
+import '../../css/footer.css';
 
 export default function Footer() {
 
@@ -17,17 +18,17 @@ export default function Footer() {
     return (
         <footer>
         <div id="block-footer">
-            <div class="block-top">
-                <div class="limit-wrapper">
-                    <div class="block-top-header">
-                        <div class="block-top-title">
+            <div className="block-top">
+                <div className="limit-wrapper">
+                    <div className="block-top-header">
+                        <div className="block-top-title">
                             <h1>Contacts</h1>
                         </div>
                     </div>
-                    <div class="block-top-body">
+                    <div className="block-top-body">
                         {footer.map((item, index) => (
-                        <div class="block-icons" key={index}>
-                            <div class="block-icon-left">
+                        <div className="block-icons" key={index}>
+                            <div className="block-icon-left">
                                 <a href="https://www.linkedin.com/in/tom%C3%A1s-mateus-a657992b4/" 
                                     dangerouslySetInnerHTML={{ __html: item.icon }}>
                                 </a>
@@ -37,12 +38,12 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <div class="block-bottom">
-                <div class="limit-wrapper">
-                    <div class="block-bottom-left">
+            <div className="block-bottom">
+                <div className="limit-wrapper">
+                    <div className="block-bottom-left">
                         <span><a href="mailto:tomas.g.mateus@gmail.com">tomas.g.mateus@gmail.com</a></span>
                     </div>
-                    <div class="block-bottom-right">
+                    <div className="block-bottom-right">
                         <span>© {currentYear} | Tomás Mateus</span>
                     </div>
                 </div>

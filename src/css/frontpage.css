@@ -1,0 +1,201 @@
+/**************/
+/*BLOCK-SLIDER*/
+/**************/
+
+#block-slider .block-slider-back {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#block-slider .block-slider-back::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right,rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.2) 100%);
+}
+
+#block-slider .block-slider-back .limit-wrapper {
+    height: 100%;
+}
+
+#block-slider .block-slider-back .limit-wrapper .block-slider-body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+#block-slider .block-slider-back .limit-wrapper .block-slider-body .block-slider-body-text {
+    color: #ffffff;
+    display: flex;
+}
+
+#block-slider .block-slider-back .limit-wrapper .block-slider-body .block-slider-body-text span {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: left;
+}
+
+#block-slider .block-slider-back .limit-wrapper .block-slider-body .block-slider-body-button {
+    padding-top: 30px;
+    display: flex;
+}
+
+#block-slider .block-slider-back .limit-wrapper .block-slider-body .block-slider-body-button a {
+    border: 1px solid #ffffff;
+    display: inline-block;
+    padding: 20px 30px;
+    color: #ffffff;
+    text-decoration: none;
+    background: linear-gradient(to right, #4D7493 50%, transparent 50%);
+    background-size: 300% 300%;
+    background-position: right;
+    transition: 0.3s ease-in-out;
+    background-color: transparent;
+}
+
+#block-slider .block-slider-back .limit-wrapper .block-slider-body .block-slider-body-button a:hover {
+    background-position: left;
+    border: 1px solid #4D7493;
+}
+
+/**********/
+/*ABOUT-ME*/
+/**********/
+#block-about-me {
+    padding: 80px 0px 40px 0;
+    background-color: #2E3E58;
+}
+
+#block-about-me .limit-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#block-about-me .block-left {
+    max-width: 700px;
+    width: 100%;
+    text-align: left;
+}
+
+#block-about-me .block-left .block-header .block-header-title h1 {
+    font-size: 46px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700px;
+    line-height: 60px;
+    color: #ffffff;
+}
+
+#block-about-me .block-left .block-body {
+    padding-top: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+#block-about-me .block-right .block-body .block-body-img img {
+    height: 350px;
+    border-radius: 50%;
+}
+
+
+
+/***************/
+/*BLOCK-JOURNEY*/
+/***************/
+#block-journey {
+    padding: 100px 0 80px 0;
+}
+
+#block-journey .block-header .block-header-title h1 {
+    font-size: 46px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700px;
+    line-height: 60px;
+    color: #4D7493;
+    text-align: center;
+}
+
+#block-journey .block-body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px;
+    align-items: center;
+}
+
+#block-journey .block-body .block-timeline {
+    background-color: #4D7493;
+    position: relative;
+    display: flex;
+    width: 30%;
+    margin-right: 20px;
+    flex-direction: column;
+    padding: 40px 20px 120px 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#block-journey .block-body .block-timeline .block-timeline-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#block-journey .block-body .block-timeline .block-timeline-title h3 {
+    font-size: 30px;
+    padding-bottom: 10px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#block-journey .block-body .block-timeline .block-timeline-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#block-journey .block-body .block-timeline .block-timeline-icon svg {
+    height: 100px;
+    width: auto;
+}
+
+#block-journey .block-body .block-timeline .block-timeline-btn {
+    display: flex;
+    justify-content: center;
+}
+
+#block-journey .block-body .block-timeline .block-timeline-btn a {
+    position: absolute;
+    bottom: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 20px 25px;
+    background: linear-gradient(to right, #ffffff 50%, transparent 50%);
+    background-size: 300% 300%;
+    background-position: right;
+    transition: 0.3s ease-in-out;
+    background-color: transparent;
+}
+
+#block-journey .block-body .block-timeline .block-timeline-btn a:hover {
+    background-position: left;
+    color: #4D7493;
+}
