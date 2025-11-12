@@ -1,6 +1,7 @@
-import React, { useEffect, useState } from 'react';
-import '../../css/styles.css';
-import '../../css/footer.css';
+﻿import React, { useEffect, useState } from 'react';
+import '../../css/shared/styles.css';
+import '../../css/shared/footer.css';
+import '../../css/shared/footermedia.css';
 
 export default function Footer() {
 

@@ -1,6 +1,6 @@
-import React from 'react';
-import '../../css/styles.css';
-import '../../css/academicpage.css';
+﻿import React from 'react';
+import '../../css/shared/styles.css';
+import '../../css/academicpage/academicpage.css';
 
 export default function AcademicBlockItems({ title, subtitle, lead, img }) {
     return (

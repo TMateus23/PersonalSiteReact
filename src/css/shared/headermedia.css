@@ -1,0 +1,81 @@
+﻿@media (max-width: 1180px) {
+    #block-header {
+        padding: 35px 25px;
+    }
+
+    #block-header .block-header-middle {
+        position: fixed;
+        display: block;
+        top: 0;
+        right: -100%;
+        width: 100%;
+        height: 100vh;
+        background-color: #FFFFFF;
+        z-index: 1000;
+        transition: right .3s ease-in-out;
+    }
+
+    #block-header .block-header-middle.showMenu {
+        right: 0;
+    }
+
+    #block-header .block-header-middle {
+        height: 100%;
+        padding: 60px 0 20px 0;
+    }
+
+    #block-header .block-header-middle .button-close-menu {
+        display: flex;
+        margin-bottom: 30px;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 20px
+    }
+
+    #block-header .block-header-middle.showMenu .main-menu {
+        max-width: 900px;
+    }
+
+    #block-header .block-header-middle .main-menu .button-close-menu {
+        display: flex;
+        margin-bottom: 30px;
+        align-items: center;
+        justify-content: flex-end;
+        cursor: pointer;
+    }
+
+    #block-header .block-header-middle ul {
+        flex-direction: column;
+    }
+
+    #block-header .block-header-middle ul li {
+        padding: 35px 20px 25px 20px;
+    }
+
+    #block-header .block-header-middle ul li a {
+        color: #000000;
+    }
+
+    #block-header .block-header-right .block-burguer-menu {
+        display: flex;
+        margin-right: 30px;
+        cursor: pointer;
+    }
+
+    #block-header .block-header-right .block-burguer-menu svg g {
+        transition: 0.3s ease-in-out;
+    }
+
+    #block-header:hover .block-header-right .block-burguer-menu svg g {
+        fill: #000000;
+        transition: 0.3s ease-in-out;
+    }
+
+    header.fixed #block-header .block-header-right .block-burguer-menu svg g {
+        fill: #000000;
+    }
+
+    header.default-page #block-header .block-header-right .block-burguer-menu svg g {
+        fill: #000000;
+    }
+}

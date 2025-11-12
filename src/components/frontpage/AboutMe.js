@@ -1,6 +1,6 @@
-import React from 'react';
-import '../../css/styles.css';
-import '../../css/frontpage.css';
+﻿import React from 'react';
+import '../../css/shared/styles.css';
+import '../../css/frontpage/frontpage.css';
 import AboutMeText from './AboutMeText';
 import AboutMeImg from './AboutMeImg';
 

@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
-import '../../css/styles.css';
-import '../../css/academicpage.css';
+﻿import React, { useEffect, useState } from 'react';
+import '../../css/shared/styles.css';
+import '../../css/academicpage/academicpage.css';
 import AcademicBlockItems from './AcademicJourneyBlockItems';
 
 export default function Academic() {

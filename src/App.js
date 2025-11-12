@@ -1,4 +1,4 @@
-import './App.css';
+﻿import './App.css';
 import Header from './components/shared/Header';
 import Footer from './components/shared/Footer';
 import Academic from './components/academicpage/Academic'

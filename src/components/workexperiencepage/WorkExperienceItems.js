@@ -1,5 +1,5 @@
-import '../../css/styles.css';
-import '../../css/workexperiencepage.css';
+﻿import '../../css/shared/styles.css';
+import '../../css/workexperiencepage/workexperiencepage.css';
 
 export default function WorkExperienceItems({ title, subtitle, img, lead }) {
     return (

@@ -1,0 +1,19 @@
+﻿@media (max-width: 768px) {
+    #block-skills .block-header .block-header-title h1 {
+        font-size: 36px;
+    }
+
+    #block-skills .block-body .block-body-title h2 {
+        font-size: 26px;
+    }
+
+    #block-skills .block-body .block-body-imgs {
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+    }
+
+    #block-skills .block-body .block-body-imgs svg {
+        width: 50px;
+        height: 50px;
+    }
+}

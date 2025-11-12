@@ -1,0 +1,35 @@
+﻿@media (max-width: 1024px) {
+    #block-works .block-body {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #block-works .block-body .block-right {
+        padding: 30px 20px;
+        max-width: 600px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    #block-works .block-header .block-header-title {
+        padding-bottom: 20px;
+    }
+
+    #block-works .block-header .block-header-title h1 {
+        font-size: 36px;
+    }
+
+    #block-works .block-body .block-left .block-left-title h2 {
+        font-size: 26px;
+    }
+
+    #block-works .block-body .block-left .block-left-subtitle span {
+        font-size: 18px;
+    }
+
+    #block-works .block-body .block-right .block-right-lead span {
+        font-size: 16px;
+    }
+}

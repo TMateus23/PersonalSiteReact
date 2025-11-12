@@ -1,0 +1,40 @@
+﻿@media (max-width: 1024px) {
+    #block-about-me .limit-wrapper {
+        flex-direction: column;
+    }
+
+    #block-about-me .block-left .block-header .block-header-title h1 {
+        font-size: 36px;
+    }
+
+    #block-about-me .block-left .block-body {
+        font-size: 16px;
+    }
+
+    #block-about-me .block-right .block-body .block-body-img img {
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+        padding-top: 20px;
+    }
+
+    #block-journey .block-header .block-header-title h1 {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 768px) {
+    #block-journey .block-body {
+        flex-direction: column;
+    }
+
+    #block-journey .block-body .block-timeline {
+        width: 100%;
+    }
+}
+
+@media (max-width: 680px) {
+    #block-slider .block-slider-back .limit-wrapper .block-slider-body .block-slider-body-text span {
+        font-size: 30px;
+    }
+}

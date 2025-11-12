@@ -1,6 +1,7 @@
-import React from 'react';
-import '../../css/styles.css';
-import '../../css/header.css';
+﻿import React from 'react';
+import '../../css/shared/styles.css';
+import '../../css/shared/header.css';
+import '../../css/shared/headermedia.css';
 import { Link, useLocation } from "react-router-dom";
 import HeaderScroll from './HeaderScroll';
 

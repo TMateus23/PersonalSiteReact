@@ -1,5 +1,5 @@
-import React from 'react';
-import '../../css/styles.css';
+﻿import React from 'react';
+import '../../css/shared/styles.css';
 import { Link } from "react-router-dom";
 export default function ButtonBack() {
     return (
@@ -18,7 +18,7 @@ export default function ButtonBack() {
                     </Link>
                 </div>
                 <div className="block-btn-lead">
-                    <Link to="/"><span>Voltar atr�s</span></Link>
+                    <Link to="/"><span>Voltar atrás</span></Link>
                 </div>
             </div>
         </div>

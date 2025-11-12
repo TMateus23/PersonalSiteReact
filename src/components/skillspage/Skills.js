@@ -1,6 +1,7 @@
-import React, { useEffect, useState } from 'react';
-import '../../css/styles.css';
-import '../../css/skillspage.css';
+﻿import React, { useEffect, useState } from 'react';
+import '../../css/shared/styles.css';
+import '../../css/skillspage/skillspage.css';
+import '../../css/skillspage/skillspagemedia.css';
 
 export default function Skills() {
     const [skills, setSkills] = useState({

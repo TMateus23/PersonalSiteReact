@@ -1,6 +1,7 @@
-import React, { useEffect, useState } from 'react';
-import '../../css/styles.css';
-import '../../css/workexperiencepage.css';
+﻿import React, { useEffect, useState } from 'react';
+import '../../css/shared/styles.css';
+import '../../css/workexperiencepage/workexperiencepage.css';
+import '../../css/workexperiencepage/workexperiencepagemedia.css';
 import WorkExperienceItems from './WorkExperienceItems';
 
 export default function WorkExperience() {

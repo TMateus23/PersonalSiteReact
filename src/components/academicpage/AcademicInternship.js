@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
-import '../../css/styles.css';
-import '../../css/academicpage.css';
+﻿import React, { useEffect, useState } from 'react';
+import '../../css/shared/styles.css';
+import '../../css/academicpage/academicpage.css';
 import AcademicInternshipBlockItems from './AcademicInternshipBlockItems';
 
 export default function AcademicInternship() {
@@ -15,9 +15,9 @@ export default function AcademicInternship() {
 
     return (
         <div id="block-stage">
-            <div class="limit-wrapper">
-                <div class="block-stage-header">
-                    <div class="block-header-title">
+            <div className="limit-wrapper">
+                <div className="block-stage-header">
+                    <div className="block-header-title">
                         <h1>Internship</h1>
                     </div>
                 </div>

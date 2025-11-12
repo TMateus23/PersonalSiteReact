@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react';
+﻿import React, { useEffect, useState } from 'react';
 import JourneyHomeItems from './JourneyHomeItems';
-import '../../css/styles.css';
-import '../../css/frontpage.css';
+import '../../css/shared/styles.css';
+import '../../css/frontpage/frontpage.css';
 
 export default function JourneyHome() {
 
