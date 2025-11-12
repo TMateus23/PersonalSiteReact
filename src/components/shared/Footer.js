@@ -7,7 +7,6 @@ export default function Footer() {
 
     //Variable that will return updated current year
     const currentYear = new Date().getFullYear();
-
     const [footer, setFooter] = useState([]);
 
     useEffect (() => {
