@@ -16,6 +16,7 @@ export default function JourneyHomeItems({title, icon, link }) {
             <div className="block-timeline-btn">
                 <Link to={link}>Find out more</Link>
             </div>
+
         </div>
     );
 }
