@@ -192,3 +192,7 @@
     background-position: left;
     color: #4D7493;
 }
+
+#block-journey .block-body .block-timeline .block-timeline-icon .svg-icon {
+    height: 100px;
+}
