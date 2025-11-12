@@ -2,6 +2,7 @@
 import '../../css/shared/styles.css';
 import '../../css/skillspage/skillspage.css';
 import '../../css/skillspage/skillspagemedia.css';
+import ButtonBack from '../shared/ButtonBack';
 
 export default function Skills() {
     const [skills, setSkills] = useState({
@@ -27,6 +28,7 @@ export default function Skills() {
 
     return (
         <div id="content">
+            <ButtonBack />
             <div id="block-skills">
                 <div className="limit-wrapper">
                     <div className="block-header">

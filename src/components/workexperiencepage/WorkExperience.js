@@ -3,6 +3,7 @@ import '../../css/shared/styles.css';
 import '../../css/workexperiencepage/workexperiencepage.css';
 import '../../css/workexperiencepage/workexperiencepagemedia.css';
 import WorkExperienceItems from './WorkExperienceItems';
+import ButtonBack from '../shared/ButtonBack';
 
 export default function WorkExperience() {
 
@@ -16,6 +17,7 @@ export default function WorkExperience() {
 
     return (
         <div id="content">
+            <ButtonBack />
             <div id="block-works">
                 <div className="limit-wrapper">
                     <div className="block-header">

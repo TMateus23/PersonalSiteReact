@@ -30,7 +30,7 @@ export default function Footer() {
                         {footer.map((item, index) => (
                         <div className="block-icons" key={index}>
                             <div className="block-icon-left">
-                                <a href="https://www.linkedin.com/in/tom%C3%A1s-mateus-a657992b4/" 
+                                <a href={item.link} target="_blank" rel="noopener noreferrer" 
                                     dangerouslySetInnerHTML={{ __html: item.icon }}>
                                 </a>
                             </div>
