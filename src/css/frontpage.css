@@ -113,8 +113,6 @@
     border-radius: 50%;
 }
 
-
-
 /***************/
 /*BLOCK-JOURNEY*/
 /***************/
@@ -169,11 +167,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-#block-journey .block-body .block-timeline .block-timeline-icon svg {
-    height: 100px;
-    width: auto;
 }
 
 #block-journey .block-body .block-timeline .block-timeline-btn {

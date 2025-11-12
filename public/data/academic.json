@@ -35,17 +35,17 @@
         {
             "title": "Academic",
             "icon": "icons/academic.svg",
-            "link": ""
+            "link": "/academic"
         },
         {
             "title": "Work experience",
             "icon": "icons/work_experience.svg",
-            "link": ""
+            "link": "/workexperience"
         },
         {
             "title": "Skills",
             "icon": "icons/skills.svg",
-            "link": ""
+            "link": "/skills"   
         }
     ]
 }

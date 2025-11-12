@@ -25,40 +25,42 @@ export default function Skills() {
     };
 
     return (
-        <div id="block-skills">
-            <div className="limit-wrapper">
-                <div className="block-header">
-                    <div className="block-header-title">
-                        <h1>Programming skills</h1>
+        <div id="content">
+            <div id="block-skills">
+                <div className="limit-wrapper">
+                    <div className="block-header">
+                        <div className="block-header-title">
+                            <h1>Programming skills</h1>
+                        </div>
                     </div>
-                </div>
-                <div className="block-body">
-                    <div className="block-body-title">
-                        <h2>Languages</h2>
-                    </div>
-                    <div className="block-body-imgs">
-                        {renderSkillItems(skills.languages)}
-                    </div>
+                    <div className="block-body">
+                        <div className="block-body-title">
+                            <h2>Languages</h2>
+                        </div>
+                        <div className="block-body-imgs">
+                            {renderSkillItems(skills.languages)}
+                        </div>
 
-                    <div className="block-body-title">
-                        <h2>Technologies/Platforms</h2>
-                    </div>
-                    <div className="block-body-imgs">
-                        {renderSkillItems(skills.Platforms)}
-                    </div>
+                        <div className="block-body-title">
+                            <h2>Technologies/Platforms</h2>
+                        </div>
+                        <div className="block-body-imgs">
+                            {renderSkillItems(skills.Platforms)}
+                        </div>
 
-                    <div className="block-body-title">
-                        <h2>Tools</h2>
-                    </div>
-                    <div className="block-body-imgs">
-                        {renderSkillItems(skills.Tools)}
-                    </div>
+                        <div className="block-body-title">
+                            <h2>Tools</h2>
+                        </div>
+                        <div className="block-body-imgs">
+                            {renderSkillItems(skills.Tools)}
+                        </div>
 
-                    <div className="block-body-title">
-                        <h2>Frameworks</h2>
-                    </div>
-                    <div className="block-body-imgs">
-                        {renderSkillItems(skills.Frameworks)}
+                        <div className="block-body-title">
+                            <h2>Frameworks</h2>
+                        </div>
+                        <div className="block-body-imgs">
+                            {renderSkillItems(skills.Frameworks)}
+                        </div>
                     </div>
                 </div>
             </div>

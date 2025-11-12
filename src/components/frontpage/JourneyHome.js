@@ -13,7 +13,7 @@ export default function JourneyHome() {
             .then(data => setJourney(data.home_journey));
     }, []);
 
-    return(
+    return (
         <div id="block-journey">
             <div className="limit-wrapper">
                 <div className="block-header">
@@ -23,7 +23,7 @@ export default function JourneyHome() {
                 </div>
                 <div className="block-body">
                     {journey.map((item, index) => (
-                        <JourneyHomeItems key={index} title={item.title} icon={item.icon} xlink={item.xlink} />
+                        <JourneyHomeItems key={index} title={item.title} icon={item.icon} link={item.link} />
                     ))}
                 </div>
             </div>

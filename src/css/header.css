@@ -117,3 +117,19 @@ header:hover #block-header .block-header-middle ul li a {
 #block-header .block-header-right .block-burguer-menu {
     display: none;
 }
+
+/*********************/
+/*HEADER DEFAULT PAGE*/
+/*********************/
+header.default-page {
+    background-color: #ffffff;
+    border-bottom: 1px solid #4D7493;
+}
+
+header.default-page #block-header .block-header-left .block-header-left-text a {
+    color: #000000;
+}
+
+header.default-page #block-header .block-header-middle ul li a {
+    color: #000000;
+}
