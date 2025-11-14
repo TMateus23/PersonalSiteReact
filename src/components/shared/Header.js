@@ -14,6 +14,12 @@ export default function Header() {
     //If the user is not in HomePage the header receive 'default-page' class
     const headerClass = `${isScrolled ? 'fixed' : ''} ${location.pathname !== '/' ? 'default-page' : ''}`;
 
+    const [isClicked, setIsClicked] = React.useState(false);
+    
+
+    const openMenu = () => {setIsClicked(true);};
+    const closeMenu = () => {setIsClicked(false)};
+        
     return (
         <header className={headerClass}>
             <div id="block-header">
@@ -23,9 +29,9 @@ export default function Header() {
                     </div>
                 </div>
 
-                <div className="block-header-middle">
+                <div className={`block-header-middle ${isClicked ? "showMenu" : ""}`}>
                     <div className="main-menu">
-                        <div className="button-close-menu">
+                        <div className="button-close-menu" onClick={closeMenu}> 
                             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" viewBox="0 0 30 25">
                                 <g fill="#000000" fillRule="evenodd">
                                     <path d="M6.161.126l21.213 21.213-3.535 3.535L2.626 3.661z"></path>
@@ -35,21 +41,21 @@ export default function Header() {
                         </div>
                         <div className="menu">
                             <ul>
-                                <li><a href="#block-about-me">About Me</a></li>
-                                <li><a href="#block-journey">Journey</a></li>
-                                <li><a href="#block-footer">Contacts</a></li>
-                            </ul>
+                                <li><a href="#block-about-me" onClick={closeMenu}>About Me</a></li>
+                                <li><a href="#block-journey" onClick={closeMenu}>Journey</a></li>
+                                <li><a href="#block-footer" onClick={closeMenu}>Contacts</a></li>
+                            </ul>       
                         </div>
                     </div>
                 </div>
 
                 <div className="block-header-right">
-                    <div className="block-burguer-menu">
+                    <div className="block-burguer-menu" onClick={openMenu}>
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" viewBox="0 0 30 25">
                             <g fill="#ffffff" fillRule="evenodd">
-                                <path d="M0 0h30v5H0zM0 10h30v5H0zM0 20h30v5H0z"></path>
+                                  <path d="M0 0h30v5H0zM0 10h30v5H0zM0 20h30v5H0z"></path>
                             </g>
-                        </svg>
+                        </svg>  
                     </div>
                 </div>
             </div>

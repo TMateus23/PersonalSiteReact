@@ -20,7 +20,7 @@ export default function Academic() {
                         <h1>Academic Journey</h1>
                     </div>
                 </div>
-
+                    
                 {academic.map((item, index) => (
                     <AcademicBlockItems key={index} title={item.title} subtitle={item.subtitle} lead={item.lead} img={item.img} />
                 ))}
